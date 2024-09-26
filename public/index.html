@@ -44,16 +44,16 @@
           </span>
         </div>
         <div class="app_body flex flex-col  items-center gap-1">
-          <img src="./images/clear.png" alt="weather_image" class="size-48" />
-          <h2 class="text-3xl text-white font-bold">22°C</h2>
-          <h3 class="text-3xl text-white font-medium">Karachi</h3>
+          <img src="./images/clear.png" alt="weather_image" class="size-48 weather_image" />
+          <h2 class="current_temp text-3xl text-white font-bold">22°C</h2>
+          <h3 class="current_location text-2xl text-white font-medium text-center">Karachi</h3>
           <div class="app_footer mt-6 flex justify-between gap-10">
             <div class="humidity flex gap-4">
               <div class="flex flex-col justify-center items-center">
                 <img class="size-10" src="./images/humidity.png" alt="humidity_icon">
               </div>
               <div>
-                <h4 class="text-lg font-bold text-white">53%</h4>
+                <h4 class="current_humidity text-lg font-bold text-white">53%</h4>
                 <h5 class="text-sm font-bold text-white">Humidity</h5>
               </div>
             </div>
@@ -62,7 +62,7 @@
                 <img class="size-10" src="./images/wind.png" alt="wind_icon">
               </div>
               <div>
-                <h4 class="text-lg font-bold text-white">5.66 km/h</h4>
+                <h4 class="current_speed text-lg font-bold text-white">5.6 km/hr</h4>
                 <h5 class="text-sm font-bold text-white">Wind Speed</h5>
               </div>
             </div>
@@ -70,5 +70,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
